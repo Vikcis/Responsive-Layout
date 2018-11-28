@@ -1,0 +1,148 @@
+*{
+	box-sizing: border-box;
+}
+.header
+{
+	width: auto;
+	height: 400px;
+	background-image: url('../img/tu1.jpg');
+	background-position: center 0;
+	background-size: cover;
+}
+.content
+{
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	padding:12px;
+	margin-bottom: 30px;
+
+}
+.main
+{
+	margin-top: 90px;
+}
+body
+{
+	background-color: #f2f2f2;
+}
+.imgbox
+{
+	width: 100%;
+	height: auto;
+	padding-top:62.57%;
+	background-color: red;
+	position: relative;
+}
+.imginner
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left:0;
+	top:0;
+}
+.title
+{
+	height: 30px;
+	line-height: 30px;
+	font-size:16px;
+	color:#777;
+	text-align: center;
+}
+.widget .title1 {
+	margin-top: 0;
+	padding-bottom: 7px;
+	border-bottom: 1px solid #ebebeb;
+	margin-bottom: 21px;
+	position: relative;
+}
+.title_line
+{
+	width: 90px;
+	height: 1px;
+	background-color: #2b669a;
+	margin-top: -21px;
+	margin-bottom: 15px;
+
+}
+.submit-site
+{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #eeeeee;
+	margin-top: 20px;
+}
+.text-center
+{
+	text-align: center;
+}
+.main-footer
+{
+	background-color: #252525;
+	padding-top: 25px;
+	color: #959595;
+}
+.main-footer .widget
+{
+	padding:0 30px;
+}
+.main-footer .widget .title1
+{
+	color:#fff;
+	border-bottom: 1px solid #303030;
+}
+.main-footer .widget .tag-cloud a {
+	border: 1px solid #303030;
+}
+a{
+	text-decoration: none;
+}
+.widget .tag-cloud a {
+	border: 1px solid #ebebeb;
+	padding: 2px 7px;
+	color: #959595;
+	line-height: 1.5em;
+	display: inline-block;
+	margin: 0 7px 7px 0;
+	-webkit-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	transition: all .2s ease;
+	text-decoration: none;
+}
+.main-footer .widget .tag-cloud a:hover {
+	background-color:  #337ab7;
+	color:#fff;
+}
+.main-footer .container .row .widget .you
+{
+    display: block;
+    border-bottom: 1px dashed #303030;
+    padding-bottom: 14px;
+    margin-bottom: 14px;
+    color: #959595;
+    transition: all .2s ease;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+}
+.main-footer .container .row .widget:hover .you
+{
+    color:#fff;
+    background-color: #252525;
+}
+.copyright
+{
+	background: #111;
+	font-size: 13px;
+	text-align: center;
+	color: #555;
+	padding-top: 14px;
+	padding-bottom: 20px;
+	border-top: 1px solid #303030;
+}
+.copyright a
+{
+    color:#555;
+}
